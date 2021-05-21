@@ -37,10 +37,10 @@ div {
  flex-direction: column;
 
 }
-hr {
-    position: relative;
+.r {
+    position: absolute;
     width: 1000px;
-   right: 35px;
+   right: 0px;
     top: 255px;
 }
 
@@ -61,31 +61,30 @@ pre {
     top: 230px;
 }
 
-.prfile {
-  width: 450px;
-  position: absolute;
-  left: 252px;
-  top: 315px;
-  border-right: 2px solid gray;
-  padding-right: 30px;
 
-  
- height: 900px;
- 
-}
-#pro {
+.pro {
 
     width: 370px;
   position: absolute;
   left: 250px;
   top: 260px;
+  border-right: 2px solid gray;
+  padding-right: 112px;
+  height: 940px;
+
 }
+.profile {
+    width: 450px;
+    position: absolute;
+    left: 252px;
+    top: 332px;
+ }
 
 .skills {
     position: absolute;
-    width: 370px;
+    width: 380px;
     left: 250px;
-    top: 365px;
+    top: 375px;
     
  
     
@@ -95,7 +94,7 @@ pre {
     
         width: 630px;
         position: absolute;
-        top: 395px;
+        top: 420px;
         left:360px;
         
 }
@@ -103,7 +102,7 @@ pre {
 .tech {
     width: 420px;
     position: absolute;
-    top: 445px;
+    top: 470px;
     left:255px;
     
    
@@ -114,39 +113,70 @@ pre {
 .addski {
     width: 630px;
         position: absolute;
-        top: 600px;
+        top: 650px;
         left:360px;
         
 }
 .add {
     width: 423px;
         position: absolute;
-        top: 670px;
+        top: 720px;
         left:255px;
         
 }
 .work{
     width: 440px;
     position: absolute;
-    top: 800px;
+    top: 870px;
     left: 250px;
 }
-
-.wx {
-    width: 395px;
+.em{
+    width: 440px;
     position: absolute;
-    top: 260px;
-    right: 350px;
-    
-    
+    top: 45px;
+    left: 0px;
 }
 
-.edu {
-    width: 400px;
-    position: absolute;
-    top: 570px;
-    right: 350px;
-}
+.work1 {
+    width: 430px; 
+    position :absolute;
+    top: 270px;
+    left:770px;
+    padding-right: 50px;
+    border:2px grey;
+ }
+
+ .wx { 
+     width: 412px;
+    position :absolute;
+    top:60px;
+    left:-0px;
+    padding-right: 38px;
+    border:2px grey;
+ }
+
+ .edu { 
+    position :absolute;
+    top:290px;
+    left:3px;
+    padding-right: 50px;
+    border:2px   grey;
+ }
+
+ .ei{
+     width: 432px;
+    position :absolute;
+    top:60px;
+    left:-0px;
+    padding-right: 30px;
+    border:2px  grey;
+ }
+ .h {
+     position:absolute;
+     top: 500px;
+
+
+ }
 
 h3 {
     color: gray;
@@ -187,4 +217,12 @@ input[type="range"]::-webkit-slider-thumb{
     background-color: white;
     cursor: pointer;
     margin-top: -1px;
+}
+i{
+    color:white;
+    border: 3px dotted orange;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: orange
+    ;
 }
